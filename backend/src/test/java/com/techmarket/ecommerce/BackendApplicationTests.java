@@ -1,10 +1,10 @@
-package com.techmarket.example;
+package com.techmarket.ecommerce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TechMarketApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {

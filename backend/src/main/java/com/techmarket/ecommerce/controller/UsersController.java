@@ -1,4 +1,4 @@
-package com.techmarket.example.controller;
+package com.techmarket.ecommerce.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.techmarket.example.entity.Users;
-import com.techmarket.example.requests.LoginRequest;
-import com.techmarket.example.service.UserService;
+import com.techmarket.ecommerce.entity.Users;
+import com.techmarket.ecommerce.requests.LoginRequest;
+import com.techmarket.ecommerce.service.UserService;
 
 @RestController
 public class UsersController {

@@ -1,13 +1,13 @@
-package com.techmarket.example.service;
+package com.techmarket.ecommerce.service;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.techmarket.example.entity.Users;
-import com.techmarket.example.repository.UsersRepo;
-import com.techmarket.example.requests.LoginRequest;
+import com.techmarket.ecommerce.entity.Users;
+import com.techmarket.ecommerce.repository.UsersRepo;
+import com.techmarket.ecommerce.requests.LoginRequest;
 
 @Service
 public class UserService {

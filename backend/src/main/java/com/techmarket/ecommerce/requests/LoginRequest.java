@@ -1,4 +1,4 @@
-package com.techmarket.example.requests;
+package com.techmarket.ecommerce.requests;
 
 public class LoginRequest {
 	
@@ -26,5 +26,6 @@ public class LoginRequest {
 	private String userEmail;
 	private String password;
 	
-
+	
 }
+

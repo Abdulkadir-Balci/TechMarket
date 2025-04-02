@@ -1,4 +1,4 @@
-package com.techmarket.example.entity;
+package com.techmarket.ecommerce.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -50,3 +50,4 @@ private String name;
 private String password;
 
 }
+
