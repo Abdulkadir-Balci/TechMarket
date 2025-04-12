@@ -1,0 +1,58 @@
+/* CategoryList.css */
+.category-list {
+    width: 300px;
+    padding: 15px;
+    background-color: #333;  /* Genel arka plan rengi */
+    color: white;
+    border-right: 2px solid #444;
+    font-family: Arial, sans-serif;
+  }
+  
+  .category-item {
+    margin-bottom: 15px;  /* Kategoriler arasındaki boşluğu artırdık */
+  }
+  
+  .category-title {
+    width: 100%;
+    padding: 20px;  /* Başlık içi padding'i arttırdık */
+    background-color: #555; /* Arka plan gri */
+    color: white;  /* Yazı rengi beyaz */
+    border: none;
+    text-align: left;
+    font-size: 15px;  /* Yazı boyutunu büyüttük */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;  /* Yazıyı kalın yapalım */
+  }
+  
+  .category-title:hover {
+    background-color: #444;  /* Hoverda arka plan biraz daha koyulaşacak */
+    transform: scale(1.05);  /* Hoverda küçük bir büyüme efekti */
+  }
+  
+  .subcategory-list {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .subcategory-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .subcategory-list li {
+    padding: 8px 0;
+    font-size: 16px;
+    color: #ccc;
+    cursor: pointer;
+    margin-left: 20px;  /* Alt kategorilerle hizalı olacak şekilde */
+  }
+  
+  .subcategory-list li:hover {
+    background-color: #555;  /* Hoverda alt kategori renk değişikliği */
+  }
+  
