@@ -1,5 +1,6 @@
 package com.techmarket.ecommerce.service;
 
+import java.time.LocalDateTime;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,19 +17,24 @@ public class UserService {
 	UsersRepo usersRepo;
 
 	public Users addUser(Users user) {
-
+		user.setRole("user"); 
+		user.setJoinDate(LocalDateTime.now());
 		return usersRepo.save(user);
 	}
 
 	public Users LoginUser(LoginRequest loginRequest) {
 	    Optional<Users> user = usersRepo.findById(loginRequest.getUserEmail());
 	    if (!user.isPresent()) {
-	        return null; // Kullanıcı bulunamazsa null dön
+	        return null; 
 	    }
 	    Users user1 = user.get();
 	    if (!user1.getPassword().equals(loginRequest.getPassword())) {
-	        return null; // Şifre yanlışsa null dön
+	        return null; 
 	    }
-	    return user1; // Kullanıcı bilgilerini dön
+	    return user1; 
+	}
+	
+	public Users getUserByEmail(String email) {
+	    return usersRepo.findById(email).orElse(null);
 	}
 }
