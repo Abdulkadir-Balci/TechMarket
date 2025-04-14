@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the footer stays at the bottom */
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            width: 250px;
+            background: #444;
+            color: white;
+            height: 100vh;
+            padding: 20px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            transition: transform 0.3s ease;
+            transform: translateX(0);
+        }
+
+        .sidebar.closed {
+            transform: translateX(-250px); /* Hide the sidebar */
+        }
+
+        .sidebar h3 {
+            text-align: center;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            padding: 10px;
+            border-bottom: 1px solid #666;
+        }
+
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+
+        .sidebar ul li:hover {
+            background: #666;
+        }
+
+        /* Main Content */
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+            flex: 1;
+        }
+
+        /* Welcome Text */
+        .welcome-text {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 100px 0; /* Make the padding larger to position it properly */
+            font-size: 2em;
+        }
+
+        /* Header Styles (Navigation) */
+        header {
+            background: #222;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Button to toggle the sidebar */
+        .toggle-btn {
+            background-color: #444;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+        }
+
+        .toggle-btn:hover {
+            background-color: #666;
+        }
+
+        /* Footer Styling */
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: auto; /* Pushes footer to the bottom */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 200px;
+            }
+
+            .content {
+                margin-left: 220px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+            }
+
+            .content {
+                margin-left: 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar">
+        <h3>Categories</h3>
+        <ul>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Phone</a></li>
+            <li><a href="#">Computer</a></li>
+            <li><a href="#">Tablet</a></li>
+            <li><a href="#">Earphones</a></li>
+        </ul>
+    </div>
+
+    <!-- Button to toggle the sidebar -->
+    <button class="toggle-btn" onclick="toggleSidebar()"> Categories</button>
+
+    <!-- Welcome Text at the top of the page -->
+    <div class="welcome-text">
+        <h1>Welcome!</h1>
+    </div>
+
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- No more "Your main content goes here." text -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript for toggling the sidebar -->
+    <script>
+        function toggleSidebar() {
+            document.querySelector('.sidebar').classList.toggle('closed');
+        }
+    </script>
+
+</body>
+</html>
