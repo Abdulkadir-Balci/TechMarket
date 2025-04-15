@@ -33,28 +33,7 @@ body {
   border-radius: 5px;
 }
 
-/* Sidebar (Kategori) Stilleri */
-.sidebar {
-  width: 250px;
-  background-color: #222;
-  color: white;
-  height: 100%;
-  padding: 20px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.3s ease;
-}
 
-.sidebar h3 {
-  text-align: center;
-  padding-bottom: 20px;
-  font-size: 24px;
-  border-bottom: 2px solid #fff;
-  margin-bottom: 20px;
-}
 
 /* Kategori Butonları */
 .category-title {
@@ -68,13 +47,10 @@ body {
   cursor: pointer;
   border-radius: 5px;
   margin-bottom: 10px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  font-weight: bold;
 }
 
 .category-title:hover {
   background-color: #555;
-  transform: scale(1.05);
 }
 
 /* Kategori Listeyi Düzenleme */
@@ -90,24 +66,23 @@ body {
 
 /* Telefonlar için özel stil */
 .phone-page {
-  margin-top: 60px;
+  margin-top: 60px; /* Telefonlar sayfası için üst boşluk */
 }
 
 .phone-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* 3 sütunlu bir grid düzeni */
   gap: 20px;
   padding: 20px;
 }
 
 .phone-item {
-  background-color: #555;
-  color: #eee;
+  background-color: #fff;
+  color: #333;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .phone-item img {
@@ -124,32 +99,23 @@ body {
 .phone-item p {
   margin-top: 10px;
   font-size: 1.1em;
-  color: #ccc;
+  color: #333;
 }
 
 .phone-item:hover {
-  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
-  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Ana İçerik (Content) Alanı */
-.content {
-  margin-left: 270px;
-  padding: 20px;
-  flex: 1;
-  background-color: #444;
-}
+
 
 /* Welcome Text */
 .welcome-text {
   background-color: #222;
   color: white;
   text-align: center;
-  padding: 50px 20px;
-  font-size: 2em;
+  padding: 100px 0;
+  font-size: 3em;
   font-weight: bold;
-  margin-top: 20px;
-  border-radius: 8px;
 }
 
 /* Header ve Navigasyon */
@@ -199,7 +165,7 @@ footer {
   }
 
   .phone-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* Daha küçük ekranlar için 2 sütun */
   }
 }
 
@@ -220,18 +186,11 @@ footer {
   }
 
   .welcome-text {
-    padding: 60px 0;
-    font-size: 2em;
+    padding: 60px 0; /* Mobilde yazıyı biraz daha kısa yapmak */
+    font-size: 2em;  /* Yazıyı biraz küçültmek */
   }
 
   .phone-list {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Phone page boşluğunu sadece geniş ekranlarda göster */
-@media (min-width: 601px) {
-  .phone-page {
-    margin-top: 60px;
+    grid-template-columns: 1fr; /* Daha küçük ekranlar için 1 sütun */
   }
 }
