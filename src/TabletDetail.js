@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 // Tabletlerin detaylarını içeren örnek veri
 const tabletDetails = {
@@ -21,7 +21,7 @@ const tabletDetails = {
   },
   'honor-pad-x9': {
     name: 'Honor Pad X9',
-    image: 'https://m.media-amazon.com/images/I/51tL89Amu4L._AC_SL1500_.jpg',  // Yeni Honor resmi
+    image: 'https://m.media-amazon.com/images/I/51tL89Amu4L._AC_SL1500_.jpg',
     description: 'A high-performance tablet with a large screen and long battery life.',
     price: '4,299.00 TL',
     color: 'Blue',
@@ -29,7 +29,7 @@ const tabletDetails = {
   },
 };
 
-const TabletDetail = () => {
+const TabletDetail = ({ handleAddToCart }) => {
   const { tabletId } = useParams();  // Parametreyi almak için useParams kullanıyoruz
   const tablet = tabletDetails[tabletId];  // tabletId'yi kullanarak tabletin detaylarını alıyoruz
 
@@ -46,7 +46,7 @@ const TabletDetail = () => {
             src={tablet.image}
             alt={tablet.name}
             style={{
-              width: '12%',  // Resmin genişliğini %12'ye indirdik, boyutunu küçülttük
+              width: '12%',
               height: 'auto',
               margin: '0',
               display: 'block',
@@ -62,7 +62,13 @@ const TabletDetail = () => {
           <p>{tablet.description}</p>
           <p><strong>Price:</strong> {tablet.price}</p>
           <p><strong>Color:</strong> {tablet.color}</p>
-          <p><strong>Storage:</strong> {tablet.storage}</p> {/* Storage bilgisini buraya ekledik */}
+          <p><strong>Storage:</strong> {tablet.storage}</p>
+          
+          <Link to="/cart">
+            <button className="cart-button" onClick={() => handleAddToCart(tabletId)}>
+              🛒 Add to Cart
+            </button>
+          </Link>
         </div>
       </div>
     </div>

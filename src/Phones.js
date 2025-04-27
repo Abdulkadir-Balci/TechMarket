@@ -1,21 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Phones.css';  // CSS dosyasını import et
 
 const phoneData = [
   {
     name: 'iPhone 13 Pro',
     image: 'https://m.media-amazon.com/images/I/618Bb+QzCmL._AC_SX342_SY445_.jpg',
-    id: 'iphone-13-pro',  // Her telefon için benzersiz bir id
+    id: 'iphone-13-pro',
   },
   {
     name: 'Samsung Galaxy S21',
     image: 'https://m.media-amazon.com/images/I/61EVFGf7zaL.__AC_SX300_SY300_QL70_ML2_.jpg',
-    id: 'samsung-galaxy-s21',  // Benzersiz id
+    id: 'samsung-galaxy-s21',
   },
   {
-    name: 'Google Pixel 6',  // Yeni telefon ekledik
-    image: 'https://m.media-amazon.com/images/I/61nJq3BzlRL._AC_SL1500_.jpg', // Google Pixel 6 resmi
-    id: 'google-pixel-6',  // Benzersiz id
+    name: 'Google Pixel 6',
+    image: 'https://m.media-amazon.com/images/I/61nJq3BzlRL._AC_SL1500_.jpg',
+    id: 'google-pixel-6',
   },
 ];
 
@@ -27,8 +28,8 @@ const Phones = () => {
         {phoneData.map((phone) => (
           <div className="phone-item" key={phone.id}>
             <Link to={`/phone/${phone.id}`}>
-              <img src={phone.image} alt={phone.name} style={{ maxWidth: '60%', height: 'auto' }} />
-              <h2>{phone.name}</h2>  {/* Telefon ismini ekledik */}
+              <img src={phone.image} alt={phone.name} />
+              <h2>{phone.name}</h2>
             </Link>
           </div>
         ))}

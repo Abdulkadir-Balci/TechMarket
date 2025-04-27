@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 // Telefonların detaylarını içeren örnek veri
 const phoneDetails = {
@@ -19,9 +19,9 @@ const phoneDetails = {
     color: 'Phantom Gray',
     storage: '128GB',
   },
-  'google-pixel-6': {  // Yeni eklediğimiz telefonun resmi değişti
+  'google-pixel-6': {
     name: 'Google Pixel 6',
-    image: 'https://m.media-amazon.com/images/I/61nJq3BzlRL._AC_SL1500_.jpg',  // Yeni resim adresi
+    image: 'https://m.media-amazon.com/images/I/61nJq3BzlRL._AC_SL1500_.jpg',
     description: 'The Google Pixel 6 comes with a 6.4" AMOLED display, Google Tensor chip.',
     price: '7,999.00 TL',
     color: 'Stormy Black',
@@ -29,9 +29,9 @@ const phoneDetails = {
   },
 };
 
-const PhoneDetail = () => {
-  const { phoneId } = useParams();  // Parametreyi almak için useParams kullanıyoruz
-  const phone = phoneDetails[phoneId];  // phoneId'yi kullanarak telefonun detaylarını alıyoruz
+const PhoneDetail = ({ handleAddToCart }) => {
+  const { phoneId } = useParams();
+  const phone = phoneDetails[phoneId]; 
 
   if (!phone) {
     return <h2>Phone not found!</h2>;
@@ -40,7 +40,6 @@ const PhoneDetail = () => {
   return (
     <div className="phone-detail-container">
       <div className="phone-detail">
-        {/* Sol Taraf: Telefon Resmi */}
         <div className="phone-image">
           <img
             src={phone.image}
@@ -56,13 +55,19 @@ const PhoneDetail = () => {
           />
         </div>
 
-        {/* Telefon ismi, fiyatı, rengi ve hafıza bilgisi */}
         <div className="phone-info">
           <h1>{phone.name}</h1>
           <p>{phone.description}</p>
           <p><strong>Price:</strong> {phone.price}</p>
           <p><strong>Color:</strong> {phone.color}</p>
-          <p><strong>Storage:</strong> {phone.storage}</p> {/* Storage bilgisini buraya ekledik */}
+          <p><strong>Storage:</strong> {phone.storage}</p>
+
+          {/* Sepet Amblemi */}
+          <Link to="/cart">
+            <button className="cart-button" onClick={() => handleAddToCart(phoneId)}>
+              🛒 Add to Cart
+            </button>
+          </Link>
         </div>
       </div>
     </div>

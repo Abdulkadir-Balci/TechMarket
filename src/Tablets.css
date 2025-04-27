@@ -1,39 +1,35 @@
-/* Tablets.css */
 .tablet-page {
-    background-color: #333;
-    color: white;
-    padding-left: 270px; /* Sidebar ile uyumlu olması için */
-    padding-top: 20px;
-  }
-  
-  .tablet-list {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(150px, 1fr));
-    gap: 20px;
-    padding-right: 20px;
-  }
-  
-  .tablet-item {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .tablet-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  .tablet-item h3 {
-    margin: 10px 0;
-  }
-  
-  .tablet-item p {
-    font-size: 18px;
-    font-weight: bold;
-    color: black;
-  }
-  
+  padding: 20px;
+  text-align: center;
+}
+
+.tablet-list {
+  display: flex;
+  flex-wrap: wrap;  /* Tabletler satır bazında sığmıyorsa alt satıra geçer */
+  justify-content: center;  /* Tabletleri ortalar */
+  gap: 20px;  /* Tabletler arasındaki boşluğu belirler */
+}
+
+.tablet-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;  /* Her tabletin genişliği */
+  transition: transform 0.3s ease;
+}
+
+.tablet-item:hover {
+  transform: scale(1.05);  /* Hover efektiyle tablet büyür */
+}
+
+.tablet-item img {
+  width: 100%;  /* Resmin genişliğini kapsayıcıya uyumlu yapar */
+  border-radius: 8px;
+}
+
+.tablet-item h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}

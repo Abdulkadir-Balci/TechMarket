@@ -1,0 +1,183 @@
+/* Genel Arka Plan */
+body {
+    background-color: #333;  /* Sayfa arka planını siyah yapıyoruz */
+    color: white;  /* Yazı rengini beyaz yapıyoruz */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Genel Sepet Sayfası */
+  .cart-page {
+    padding: 20px;
+    background-color: #333;  /* Sepet sayfasının arka planını siyah yapıyoruz */
+    color: white;  /* Yazı rengini beyaz yapıyoruz */
+  }
+  
+  /* Sepet Ürünleri Düzeni */
+  .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  /* Sepet Ürünleri */
+  .cart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;  /* Ürün arka planını açık renk yapıyoruz */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    position: relative;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .cart-item:hover {
+    transform: translateY(-5px);  /* Hover ile ürün biraz yukarı kayar */
+  }
+  
+  /* Ürün Adı ve Fiyatı */
+  .cart-item h2 {
+    color: #333;  /* Ürün adı rengini koyu gri yapıyoruz, okunabilirlik için */
+  }
+  
+  .cart-item p {
+    color: #333;  /* Fiyat rengini koyu gri yapıyoruz */
+  }
+  
+  /* Silme Butonu */
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #f44336;  /* Kırmızı renk */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #e53935;  /* Hover ile daha koyu kırmızı */
+  }
+  
+  .delete-button:focus {
+    outline: none;
+  }
+  
+  /* Continue Shopping Butonu */
+  .continue-shopping {
+    background-color: #008cba;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .continue-shopping:hover {
+    background-color: #005f73;  /* Hover ile renk değişir */
+  }
+  
+  /* Back to Shopping Linki */
+  .back-to-shopping {
+    display: inline-block;
+    background-color: #444;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .back-to-shopping:hover {
+    background-color: #555;
+    transform: translateY(-3px);  /* Hover ile buton yukarı kayar */
+  }
+  
+  /* Adet Artırma ve Azaltma Butonları */
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .quantity-controls button {
+    background-color: #f0ad4e;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .quantity-controls button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+  }
+  
+  .quantity-controls span {
+    font-size: 18px;
+    color: #333;  /* Adet sayısını koyu gri yapıyoruz, daha okunabilir */
+  }
+  
+  /* Sepet Sayfası Düzenlemeleri Mobil Uyumluluk İçin */
+  @media (max-width: 768px) {
+    .cart-items {
+      justify-content: center;  /* Mobilde ürünleri ortalar */
+    }
+  
+    .cart-item {
+      width: 150px;  /* Mobilde ürünlerin boyutunu küçültür */
+      margin-bottom: 20px;
+    }
+  
+    .continue-shopping {
+      font-size: 14px;  /* Mobilde buton boyutunu küçültür */
+      padding: 8px 15px;
+    }
+  
+    .back-to-shopping {
+      font-size: 16px;  /* Back to Shopping linkini mobilde daha küçük yapar */
+      padding: 10px 25px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .cart-items {
+      flex-direction: column;  /* Ürünleri alt alta sıralar */
+      align-items: center;
+    }
+  
+    .cart-item {
+      width: 100%;  /* Mobilde ürünler tam genişlikte olacak */
+    }
+  
+    .continue-shopping {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  
+    .back-to-shopping {
+      font-size: 14px;
+      padding: 8px 20px;
+    }
+  }
+  

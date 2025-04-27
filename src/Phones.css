@@ -1,0 +1,36 @@
+.phone-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .phone-list {
+    display: flex;
+    flex-wrap: wrap;  /* Telefonlar satır bazında sığmıyorsa alt satıra geçer */
+    justify-content: center;  /* Telefonları ortalar */
+    gap: 20px;  /* Telefonlar arasındaki boşluğu belirler */
+  }
+  
+  .phone-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;  /* Her telefonun genişliği */
+    transition: transform 0.3s ease;
+  }
+  
+  .phone-item:hover {
+    transform: scale(1.05);  /* Hover efektiyle telefon büyür */
+  }
+  
+  .phone-item img {
+    width: 100%;  /* Resmin genişliğini kapsayıcıya uyumlu yapar */
+    border-radius: 8px;
+  }
+  
+  .phone-item h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
