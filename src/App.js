@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, Navigate, useNavigate } from 'react-router-dom';
+import './App.css';
+import './user_info/UserInfo.css';
 import HomePage from './HomePage';
 import Phones from './Phones';
 import Tablets from './Tablets';
 import PhoneDetail from './PhoneDetail';
 import TabletDetail from './TabletDetail';
 import Cart from './Cart';
+import UserInfo from './user_info/UserInfo.js'; 
+import Login from './Login';
+import Register from './Register';
+import CategoryList from './CategoryList';
 
 // Ürün verileri
 const availableProducts = {
@@ -25,44 +31,25 @@ const availableProducts = {
     color: 'Phantom Gray',
     storage: '128GB',
   },
-  'google-pixel-6': {
-    name: 'Google Pixel 6',
-    image: 'https://m.media-amazon.com/images/I/61nJq3BzlRL._AC_SL1500_.jpg',
-    description: 'The Google Pixel 6 comes with a 6.4" AMOLED display, Google Tensor chip.',
-    price: '7,999.00 TL',
-    color: 'Stormy Black',
-    storage: '128GB',
-  },
-  'samsung-galaxy-tab-s6-lite': {
-    name: 'Samsung Galaxy Tab S6 Lite',
-    image: 'https://m.media-amazon.com/images/I/61ssusKvqoL.jpg',
-    description: 'A great tablet with S Pen included, perfect for creativity and productivity.',
-    price: '8,799.00 TL',
-    color: 'Black',
-    storage: '64GB',
-  },
-  'apple-ipad-10-2-2020': {
-    name: 'Apple iPad 10.2 (2020)',
-    image: 'https://m.media-amazon.com/images/I/61VQc+6KLSL._AC_SL1500_.jpg',
-    description: 'The latest iPad with 10.2" Retina display and A12 Bionic chip.',
-    price: '6,499.00 TL',
-    color: 'Space Gray',
-    storage: '128GB',
-  },
-  'honor-pad-x9': {
-    name: 'Honor Pad X9',
-    image: 'https://m.media-amazon.com/images/I/51tL89Amu4L._AC_SL1500_.jpg',
-    description: 'A high-performance tablet with a large screen and long battery life.',
-    price: '4,299.00 TL',
-    color: 'Blue',
-    storage: '64GB',
-  },
+  // Diğer ürünler burada yer alacak
 };
 
-function App() {
+const App = () => {
+  const [user, setUser] = useState(null);
   const [cartData, setCartData] = useState([]);
+  const navigate = useNavigate();
 
-  // Sepete ürün ekleme fonksiyonu
+  // Kullanıcı girişi ve çıkışı işlemleri
+  const handleLogin = (userData) => {
+    setUser(userData);
+  };
+
+  const handleLogout = () => {
+    setUser(null);
+    navigate('/login');
+  };
+
+  // Sepete ürün ekleme, artırma, azaltma ve silme işlemleri
   const handleAddToCart = (productId) => {
     const product = availableProducts[productId];
 
@@ -70,19 +57,16 @@ function App() {
     const existingProductIndex = cartData.findIndex(item => item.productId === productId);
 
     if (existingProductIndex > -1) {
-      // Eğer ürün zaten varsa, adetini artır
       const updatedCart = [...cartData];
       if (updatedCart[existingProductIndex].quantity < 10) {
         updatedCart[existingProductIndex].quantity += 1;
         setCartData(updatedCart);
       }
     } else {
-      // Eğer ürün yoksa, sepete yeni ürün ekle ve adedini 1 olarak ayarla
       setCartData([...cartData, { productId, quantity: 1, ...product }]);
     }
   };
 
-  // Adet azaltma fonksiyonu
   const handleDecreaseQuantity = (productId) => {
     const updatedCart = cartData.map(item => {
       if (item.productId === productId && item.quantity > 1) {
@@ -93,7 +77,6 @@ function App() {
     setCartData(updatedCart);
   };
 
-  // Adet artırma fonksiyonu
   const handleIncreaseQuantity = (productId) => {
     const updatedCart = cartData.map(item => {
       if (item.productId === productId && item.quantity < 10) {
@@ -104,24 +87,58 @@ function App() {
     setCartData(updatedCart);
   };
 
-  // Sepetteki ürünün adetini azaltma
   const handleRemoveFromCart = (productId) => {
     const updatedCartData = cartData.filter(item => item.productId !== productId);
     setCartData(updatedCartData);
   };
 
   return (
+    <div className="app">
+      {/* Main Content */}
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<HomePage cartData={cartData} />} />
+          <Route path="/phones" element={user ? <Phones handleAddToCart={handleAddToCart} /> : <Navigate to="/login" replace />} />
+          <Route path="/tablets" element={user ? <Tablets handleAddToCart={handleAddToCart} /> : <Navigate to="/login" replace />} />
+          <Route path="/phone/:phoneId" element={user ? <PhoneDetail handleAddToCart={handleAddToCart} availableProducts={availableProducts} /> : <Navigate to="/login" replace />} />
+          <Route path="/tablet/:tabletId" element={user ? <TabletDetail handleAddToCart={handleAddToCart} availableProducts={availableProducts} /> : <Navigate to="/login" replace />} />
+          <Route path="/cart" element={user ? <Cart cartData={cartData} handleRemoveFromCart={handleRemoveFromCart} handleIncreaseQuantity={handleIncreaseQuantity} handleDecreaseQuantity={handleDecreaseQuantity} /> : <Navigate to="/login" replace />} />
+          
+          {/* Authentication Routes */}
+          <Route path="/login" element={<Login onLogin={handleLogin} />} />
+          <Route path="/register" element={<Register />} />
+          
+          {/* Dummy Pages */}
+          <Route path="/about" element={user ? <h1>About Us</h1> : <Navigate to="/login" replace />} />
+          <Route path="/services" element={user ? <h1>Our Services</h1> : <Navigate to="/login" replace />} />
+          <Route path="/contact" element={user ? <h1>Contact Us</h1> : <Navigate to="/login" replace />} />
+        </Routes>
+      </div>
+
+      {/* Footer and User Info */}
+      {user && (
+        <>
+          <UserInfo userEmail={user.email} onLogout={handleLogout} />
+          <footer>
+            <nav>
+              <Link to="/" className="nav-link">Home</Link>
+              <Link to="/about" className="nav-link">About</Link>
+              <Link to="/services" className="nav-link">Services</Link>
+              <Link to="/contact" className="nav-link">Contact</Link>
+            </nav>
+          </footer>
+        </>
+      )}
+    </div>
+  );
+};
+
+function AppWithRouter() {
+  return (
     <Router>
-      <Routes>
-        <Route path="/" element={<HomePage cartData={cartData} />} />
-        <Route path="/phones" element={<Phones handleAddToCart={handleAddToCart} />} />
-        <Route path="/tablets" element={<Tablets handleAddToCart={handleAddToCart} />} />
-        <Route path="/phone/:phoneId" element={<PhoneDetail handleAddToCart={handleAddToCart} availableProducts={availableProducts} />} />
-        <Route path="/tablet/:tabletId" element={<TabletDetail handleAddToCart={handleAddToCart} availableProducts={availableProducts} />} />
-        <Route path="/cart" element={<Cart cartData={cartData} handleRemoveFromCart={handleRemoveFromCart} handleIncreaseQuantity={handleIncreaseQuantity} handleDecreaseQuantity={handleDecreaseQuantity} />} />
-      </Routes>
+      <App />
     </Router>
   );
 }
 
-export default App;
+export default AppWithRouter;
