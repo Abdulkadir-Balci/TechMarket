@@ -1,0 +1,32 @@
+.earphones-list {
+    padding: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .earphones-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .earphone-card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none; /* Link stilini kaldırır */
+    color: inherit; /* Yazı rengini korur */
+  }
+  
+  .earphone-card img {
+    max-width: 100%;
+    border-radius: 4px;
+  }

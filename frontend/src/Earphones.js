@@ -1,14 +1,14 @@
-// src/Phones.js
+// src/Earphones.js
 import React, { useEffect, useState } from 'react';
 import './css/Phones.css';
 
-const Phones = () => {
+const Earphones = () => {
   const [allProducts, setAllProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products/category/electronics")
+    fetch("https://fakestoreapi.com/products/category/electronics") // dummyjson'da "earphones" kategorisi yok, smartphones'ı örnek olarak kullanıyoruz
       .then(res => res.json())
       .then(data => {
         setAllProducts(data.products);
@@ -16,7 +16,6 @@ const Phones = () => {
       });
   }, []);
 
-  // Arama çubuğu değiştiğinde filtreleme
   useEffect(() => {
     const filtered = allProducts.filter(product =>
       product.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -26,10 +25,10 @@ const Phones = () => {
 
   return (
     <div className="phones-page">
-      <h2>Phones</h2>
+      <h2>Earphones</h2>
       <input
         type="text"
-        placeholder="Search phones..."
+        placeholder="Search earphones..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         className="search-input"
@@ -48,4 +47,4 @@ const Phones = () => {
   );
 };
 
-export default Phones;
+export default Earphones;

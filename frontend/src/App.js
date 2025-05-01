@@ -4,12 +4,11 @@ import { BrowserRouter as Router, Route, Routes, Link, Navigate, useNavigate } f
 import './App.css';
 import Login from './Login';
 import Register from './Register';
-import Tablets from './Tablets';  // Tablets bileşenini import ettik
-import TabletDetail from './TabletDetail';  // TabletDetail bileşenini import ettik
-import Phones from './Phones';
-import PhoneDetail from './PhoneDetail';
-import './user_info/UserInfo.css';
 
+import Phones from './Phones';
+import Earphones from './Earphones'; 
+import './user_info/UserInfo.css';
+import Computers from './Computers';
 const App = () => {
   const [isCategoryOpen, setCategoryOpen] = useState(false); // Kategori kısmı açık mı kapalı mı?
   const [user, setUser] = useState(null);
@@ -43,16 +42,14 @@ const App = () => {
             <div className="sidebar">
               <h3>Categories</h3>
               <div className="category-list">
-                <Link to="/tablets">
-                  <button className="category-title">Tablets</button>
-                </Link>
-                <Link to="/phones">
+              
+                <Link to="/Phones">
                   <button className="category-title">Phones</button>
                 </Link>
-                <Link to="/computers">
+                <Link to="/Computers">
                   <button className="category-title">Computers</button>
                 </Link>
-                <Link to="/earphones">
+                <Link to="/Earphones">
                   <button className="category-title">Earphones</button>
                 </Link>
               </div>
@@ -64,11 +61,13 @@ const App = () => {
       {/* Main Content */}
       <div className="content">
         <Routes>
+        <Route path="/computers" element={user ? <Computers /> : <Navigate to="/login" replace />} />
+        <Route path="/earphones" element={user ? <Earphones /> : <Navigate to="/login" replace />} />
+
           <Route path="/" element={user ?(<div className="welcome-text"><h1>Welcome to TechMarket, {user.username}!</h1></div>): (<Navigate to="/login" replace />)} />
-          <Route path="/tablets" element={user ? <Tablets /> : <Navigate to="/login" replace />}  />
-          <Route path="/tablet/:tabletId"  element={user ? <TabletDetail /> : <Navigate to="/login" replace />} />
-          <Route path="/phones" element={user ? <Phones /> : <Navigate to="/login" replace />}  /> {/* Phones route ekledik */}
-          <Route path="/phone/:phoneId" element={user ? <PhoneDetail /> : <Navigate to="/login" replace />} /> {/* Phone detail sayfası */}
+          
+         
+          <Route path="/Phones" element={user ? <Phones /> : <Navigate to="/login" replace />}  /> {/* Phones route ekledik */}
           <Route path="/about" element={user ? <h1>About Us</h1> : <Navigate to="/login" replace />}  />
           <Route path="/services" element={user ? <h1>Our Services</h1> : <Navigate to="/login" replace />}  />
           <Route path="/contact" element={user ? <h1>Contact Us</h1> : <Navigate to="/login" replace />}  />
