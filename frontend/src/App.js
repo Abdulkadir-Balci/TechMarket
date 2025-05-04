@@ -6,6 +6,7 @@ import Register from './Register';
 import Phones from './Phones';
 import Earphones from './Earphones';
 import Computers from './Computers';
+import Tablets from './Tablets';
 import UserInfo from './user_info/UserInfo.js';
 import CategoryList from './CategoryList';  // Kategoriler Listesini Import Ediyoruz
 
@@ -50,6 +51,7 @@ const App = () => {
           <Route path="/earphones" element={user ? <Earphones /> : <Navigate to="/login" replace />} />
           <Route path="/" element={user ?(<div className="welcome-text"><h1>Welcome to TechMarket, {user.username}!</h1></div>): (<Navigate to="/login" replace />)} />
           <Route path="/phones" element={user ? <Phones /> : <Navigate to="/login" replace />} />
+          <Route path="/tablets" element={user ? <Tablets /> : <Navigate to="/login" replace />} />
           <Route path="/about" element={user ? <h1>About Us</h1> : <Navigate to="/login" replace />} />
           <Route path="/services" element={user ? <h1>Our Services</h1> : <Navigate to="/login" replace />} />
           <Route path="/contact" element={user ? <h1>Contact Us</h1> : <Navigate to="/login" replace />} />

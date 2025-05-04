@@ -8,11 +8,12 @@ const Computers = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://dummyjson.com/products/category/laptops")
+    fetch("/data/products.json")
       .then(res => res.json())
       .then(data => {
-        setAllProducts(data.products);           // ✅ Direkt data kullanılıyor
-        setFilteredProducts(data.products);      // ✅ Aynı şekilde
+        const laptopsOnly = data.products.filter(product => product.category === "laptops");
+        setAllProducts(laptopsOnly);
+        setFilteredProducts(laptopsOnly);
       })
       .catch(error => {
         console.error("Veri alınırken hata oluştu:", error);

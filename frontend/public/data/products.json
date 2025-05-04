@@ -1,0 +1,1761 @@
+{
+    "products": [
+      {
+        "id": 78,
+        "title": "Apple MacBook Pro 14 Inch Space Grey",
+        "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+        "category": "laptops",
+        "price": 1999.99,
+        "discountPercentage": 4.69,
+        "rating": 3.65,
+        "stock": 24,
+        "tags": [
+          "laptops",
+          "apple"
+        ],
+        "brand": "Apple",
+        "sku": "LAP-APP-APP-078",
+        "weight": 9,
+        "dimensions": {
+          "width": 20.03,
+          "height": 9.54,
+          "depth": 14.82
+        },
+        "warrantyInformation": "3 year warranty",
+        "shippingInformation": "Ships in 2 weeks",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Very happy with my purchase!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Hazel Evans",
+            "reviewerEmail": "hazel.evans@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Very happy with my purchase!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Christopher West",
+            "reviewerEmail": "christopher.west@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Very satisfied!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Aubrey Garcia",
+            "reviewerEmail": "aubrey.garcia@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "90 days return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.053Z",
+          "updatedAt": "2025-04-30T09:41:02.053Z",
+          "barcode": "5275211560367",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+          "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/2.webp",
+          "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
+      },
+      {
+        "id": 79,
+        "title": "Asus Zenbook Pro Dual Screen Laptop",
+        "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+        "category": "laptops",
+        "price": 1799.99,
+        "discountPercentage": 11.14,
+        "rating": 3.95,
+        "stock": 45,
+        "tags": [
+          "laptops"
+        ],
+        "brand": "Asus",
+        "sku": "LAP-ASU-ASU-079",
+        "weight": 9,
+        "dimensions": {
+          "width": 16.6,
+          "height": 11.49,
+          "depth": 10.89
+        },
+        "warrantyInformation": "3 year warranty",
+        "shippingInformation": "Ships in 1 month",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Very happy with my purchase!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Michael Johnson",
+            "reviewerEmail": "michael.johnson@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Highly recommended!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Zoe Bennett",
+            "reviewerEmail": "zoe.bennett@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Very satisfied!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Mila Hernandez",
+            "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "7 days return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.053Z",
+          "updatedAt": "2025-04-30T09:41:02.053Z",
+          "barcode": "7392988535158",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+          "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp",
+          "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
+      },
+      {
+        "id": 80,
+        "title": "Huawei Matebook X Pro",
+        "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+        "category": "laptops",
+        "price": 1399.99,
+        "discountPercentage": 9.38,
+        "rating": 4.98,
+        "stock": 75,
+        "tags": [
+          "laptops"
+        ],
+        "brand": "Huawei",
+        "sku": "LAP-HUA-HUA-080",
+        "weight": 9,
+        "dimensions": {
+          "width": 18.21,
+          "height": 22.83,
+          "depth": 17.26
+        },
+        "warrantyInformation": "No warranty",
+        "shippingInformation": "Ships overnight",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Very satisfied!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Evan Wright",
+            "reviewerEmail": "evan.wright@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Very happy with my purchase!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Hunter Gordon",
+            "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+          },
+          {
+            "rating": 1,
+            "comment": "Not worth the price!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "William Gonzalez",
+            "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "60 days return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.053Z",
+          "updatedAt": "2025-04-30T09:41:02.053Z",
+          "barcode": "0592296671061",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+          "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp",
+          "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
+      },
+      {
+        "id": 81,
+        "title": "Lenovo Yoga 920",
+        "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+        "category": "laptops",
+        "price": 1099.99,
+        "discountPercentage": 6.55,
+        "rating": 2.86,
+        "stock": 40,
+        "tags": [
+          "laptops"
+        ],
+        "brand": "Lenovo",
+        "sku": "LAP-LEN-LEN-081",
+        "weight": 9,
+        "dimensions": {
+          "width": 20.84,
+          "height": 22.68,
+          "depth": 17.39
+        },
+        "warrantyInformation": "6 months warranty",
+        "shippingInformation": "Ships in 2 weeks",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Would buy again!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Bella Gonzalez",
+            "reviewerEmail": "bella.gonzalez@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Great value for money!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Nathan Reed",
+            "reviewerEmail": "nathan.reed@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Great value for money!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Hazel Gardner",
+            "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "No return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.053Z",
+          "updatedAt": "2025-04-30T09:41:02.053Z",
+          "barcode": "5506742916764",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+          "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
+          "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
+      },
+      {
+        "id": 82,
+        "title": "New DELL XPS 13 9300 Laptop",
+        "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+        "category": "laptops",
+        "price": 1499.99,
+        "discountPercentage": 11.89,
+        "rating": 2.67,
+        "stock": 74,
+        "tags": [
+          "laptops"
+        ],
+        "brand": "Dell",
+        "sku": "LAP-DEL-DEL-082",
+        "weight": 2,
+        "dimensions": {
+          "width": 13.76,
+          "height": 29,
+          "depth": 21.42
+        },
+        "warrantyInformation": "2 year warranty",
+        "shippingInformation": "Ships in 2 weeks",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 3,
+            "comment": "Poor quality!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Charlotte Lopez",
+            "reviewerEmail": "charlotte.lopez@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Very satisfied!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Alice Smith",
+            "reviewerEmail": "alice.smith@x.dummyjson.com"
+          },
+          {
+            "rating": 2,
+            "comment": "Disappointing product!",
+            "date": "2025-04-30T09:41:02.053Z",
+            "reviewerName": "Ava Taylor",
+            "reviewerEmail": "ava.taylor@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "60 days return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.053Z",
+          "updatedAt": "2025-04-30T09:41:02.053Z",
+          "barcode": "5963805976904",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+          "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/2.webp",
+          "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
+      },
+      {
+        "id": 121,
+        "title": "iPhone 5s",
+        "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+        "category": "smartphones",
+        "price": 199.99,
+        "discountPercentage": 12.91,
+        "rating": 2.83,
+        "stock": 25,
+        "tags": [
+          "smartphones",
+          "apple"
+        ],
+        "brand": "Apple",
+        "sku": "SMA-APP-IPH-121",
+        "weight": 2,
+        "dimensions": {
+          "width": 5.29,
+          "height": 18.38,
+          "depth": 17.72
+        },
+        "warrantyInformation": "Lifetime warranty",
+        "shippingInformation": "Ships in 1 month",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Highly recommended!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Jace Smith",
+            "reviewerEmail": "jace.smith@x.dummyjson.com"
+          },
+          {
+            "rating": 1,
+            "comment": "Not as described!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Logan Torres",
+            "reviewerEmail": "logan.torres@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Very satisfied!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Harper Kelly",
+            "reviewerEmail": "harper.kelly@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "60 days return policy",
+        "minimumOrderQuantity": 3,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "8814683940853",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp"
+      },
+      {
+        "id": 122,
+        "title": "iPhone 6",
+        "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+        "category": "smartphones",
+        "price": 299.99,
+        "discountPercentage": 6.69,
+        "rating": 3.41,
+        "stock": 60,
+        "tags": [
+          "smartphones",
+          "apple"
+        ],
+        "brand": "Apple",
+        "sku": "SMA-APP-IPH-122",
+        "weight": 7,
+        "dimensions": {
+          "width": 11,
+          "height": 9.1,
+          "depth": 9.67
+        },
+        "warrantyInformation": "1 month warranty",
+        "shippingInformation": "Ships overnight",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 3,
+            "comment": "Disappointing product!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Stella Morris",
+            "reviewerEmail": "stella.morris@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Excellent quality!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Nolan Gonzalez",
+            "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Great value for money!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Benjamin Foster",
+            "reviewerEmail": "benjamin.foster@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "7 days return policy",
+        "minimumOrderQuantity": 5,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "9922357685013",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
+      },
+      {
+        "id": 123,
+        "title": "iPhone 13 Pro",
+        "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+        "category": "smartphones",
+        "price": 1099.99,
+        "discountPercentage": 9.37,
+        "rating": 4.12,
+        "stock": 56,
+        "tags": [
+          "smartphones",
+          "apple"
+        ],
+        "brand": "Apple",
+        "sku": "SMA-APP-IPH-123",
+        "weight": 8,
+        "dimensions": {
+          "width": 12.63,
+          "height": 5.28,
+          "depth": 14.29
+        },
+        "warrantyInformation": "3 year warranty",
+        "shippingInformation": "Ships in 2 weeks",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Would buy again!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Christian Perez",
+            "reviewerEmail": "christian.perez@x.dummyjson.com"
+          },
+          {
+            "rating": 3,
+            "comment": "Not worth the price!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Liam Gonzalez",
+            "reviewerEmail": "liam.gonzalez@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Very satisfied!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Tristan Scott",
+            "reviewerEmail": "tristan.scott@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "7 days return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "4998438802308",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp"
+      },
+      {
+        "id": 124,
+        "title": "iPhone X",
+        "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+        "category": "smartphones",
+        "price": 899.99,
+        "discountPercentage": 19.59,
+        "rating": 2.51,
+        "stock": 37,
+        "tags": [
+          "smartphones",
+          "apple"
+        ],
+        "brand": "Apple",
+        "sku": "SMA-APP-IPH-124",
+        "weight": 1,
+        "dimensions": {
+          "width": 21.88,
+          "height": 24.19,
+          "depth": 14.19
+        },
+        "warrantyInformation": "3 months warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Highly recommended!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Tyler Davis",
+            "reviewerEmail": "tyler.davis@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Great product!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Aria Parker",
+            "reviewerEmail": "aria.parker@x.dummyjson.com"
+          },
+          {
+            "rating": 2,
+            "comment": "Not as described!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Lily Torres",
+            "reviewerEmail": "lily.torres@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "7 days return policy",
+        "minimumOrderQuantity": 2,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "3034949322264",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
+      },
+      {
+        "id": 125,
+        "title": "Oppo A57",
+        "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+        "category": "smartphones",
+        "price": 249.99,
+        "discountPercentage": 2.43,
+        "rating": 3.94,
+        "stock": 19,
+        "tags": [
+          "smartphones",
+          "oppo"
+        ],
+        "brand": "Oppo",
+        "sku": "SMA-OPP-OPP-125",
+        "weight": 5,
+        "dimensions": {
+          "width": 7.2,
+          "height": 10.74,
+          "depth": 23.68
+        },
+        "warrantyInformation": "Lifetime warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Excellent quality!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Scarlett Wright",
+            "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Excellent quality!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Jacob Cooper",
+            "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+          },
+          {
+            "rating": 2,
+            "comment": "Poor quality!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Zoe Nicholson",
+            "reviewerEmail": "zoe.nicholson@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "90 days return policy",
+        "minimumOrderQuantity": 3,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "0651223722522",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp"
+      },
+      {
+        "id": 126,
+        "title": "Oppo F19 Pro Plus",
+        "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+        "category": "smartphones",
+        "price": 399.99,
+        "discountPercentage": 18.64,
+        "rating": 3.51,
+        "stock": 78,
+        "tags": [
+          "smartphones",
+          "oppo"
+        ],
+        "brand": "Oppo",
+        "sku": "SMA-OPP-OPP-126",
+        "weight": 6,
+        "dimensions": {
+          "width": 6.78,
+          "height": 25.17,
+          "depth": 8.4
+        },
+        "warrantyInformation": "3 year warranty",
+        "shippingInformation": "Ships in 1 week",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Very happy with my purchase!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Emily Johnson",
+            "reviewerEmail": "emily.johnson@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Highly recommended!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Jaxon Barnes",
+            "reviewerEmail": "jaxon.barnes@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Would buy again!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Nova Cooper",
+            "reviewerEmail": "nova.cooper@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "90 days return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "8576893968169",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp"
+      },
+      {
+        "id": 127,
+        "title": "Oppo K1",
+        "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+        "category": "smartphones",
+        "price": 299.99,
+        "discountPercentage": 18.29,
+        "rating": 4.25,
+        "stock": 55,
+        "tags": [
+          "smartphones",
+          "oppo"
+        ],
+        "brand": "Oppo",
+        "sku": "SMA-OPP-OPP-127",
+        "weight": 5,
+        "dimensions": {
+          "width": 13.89,
+          "height": 10.63,
+          "depth": 16.6
+        },
+        "warrantyInformation": "1 month warranty",
+        "shippingInformation": "Ships in 1-2 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Very pleased!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Christopher West",
+            "reviewerEmail": "christopher.west@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Highly recommended!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Mia Miller",
+            "reviewerEmail": "mia.miller@x.dummyjson.com"
+          },
+          {
+            "rating": 2,
+            "comment": "Very dissatisfied!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Ella Adams",
+            "reviewerEmail": "ella.adams@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "30 days return policy",
+        "minimumOrderQuantity": 5,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "3106827888743",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/3.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/4.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp"
+      },
+      {
+        "id": 128,
+        "title": "Realme C35",
+        "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+        "category": "smartphones",
+        "price": 149.99,
+        "discountPercentage": 15.3,
+        "rating": 4.2,
+        "stock": 48,
+        "tags": [
+          "smartphones",
+          "realme"
+        ],
+        "brand": "Realme",
+        "sku": "SMA-REA-REA-128",
+        "weight": 2,
+        "dimensions": {
+          "width": 25.28,
+          "height": 8.14,
+          "depth": 29.53
+        },
+        "warrantyInformation": "3 year warranty",
+        "shippingInformation": "Ships overnight",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Great product!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Penelope King",
+            "reviewerEmail": "penelope.king@x.dummyjson.com"
+          },
+          {
+            "rating": 2,
+            "comment": "Very unhappy with my purchase!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Asher Scott",
+            "reviewerEmail": "asher.scott@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Highly impressed!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Henry Adams",
+            "reviewerEmail": "henry.adams@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "90 days return policy",
+        "minimumOrderQuantity": 3,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "7825844344364",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp"
+      },
+      {
+        "id": 129,
+        "title": "Realme X",
+        "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+        "category": "smartphones",
+        "price": 299.99,
+        "discountPercentage": 6.95,
+        "rating": 3.7,
+        "stock": 12,
+        "tags": [
+          "smartphones",
+          "realme"
+        ],
+        "brand": "Realme",
+        "sku": "SMA-REA-REA-129",
+        "weight": 4,
+        "dimensions": {
+          "width": 25.59,
+          "height": 21.42,
+          "depth": 12.75
+        },
+        "warrantyInformation": "1 month warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Would buy again!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Hazel Evans",
+            "reviewerEmail": "hazel.evans@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Fast shipping!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Brayden Fleming",
+            "reviewerEmail": "brayden.fleming@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Very satisfied!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Madison Stewart",
+            "reviewerEmail": "madison.stewart@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "No return policy",
+        "minimumOrderQuantity": 3,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "4948452391831",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/realme-x/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/realme-x/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
+      },
+      {
+        "id": 130,
+        "title": "Realme XT",
+        "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+        "category": "smartphones",
+        "price": 349.99,
+        "discountPercentage": 11.51,
+        "rating": 4.58,
+        "stock": 80,
+        "tags": [
+          "smartphones",
+          "realme"
+        ],
+        "brand": "Realme",
+        "sku": "SMA-REA-REA-130",
+        "weight": 3,
+        "dimensions": {
+          "width": 24.98,
+          "height": 26.73,
+          "depth": 6.5
+        },
+        "warrantyInformation": "3 year warranty",
+        "shippingInformation": "Ships in 1 month",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Very satisfied!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Emily Brown",
+            "reviewerEmail": "emily.brown@x.dummyjson.com"
+          },
+          {
+            "rating": 3,
+            "comment": "Not as described!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Ella Cook",
+            "reviewerEmail": "ella.cook@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Would buy again!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Layla Sullivan",
+            "reviewerEmail": "layla.sullivan@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "60 days return policy",
+        "minimumOrderQuantity": 3,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "6151817227632",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp"
+      },
+      {
+        "id": 131,
+        "title": "Samsung Galaxy S7",
+        "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+        "category": "smartphones",
+        "price": 299.99,
+        "discountPercentage": 19.55,
+        "rating": 3.3,
+        "stock": 67,
+        "tags": [
+          "smartphones",
+          "samsung galaxy"
+        ],
+        "brand": "Samsung",
+        "sku": "SMA-SAM-SAM-131",
+        "weight": 10,
+        "dimensions": {
+          "width": 13.55,
+          "height": 24.24,
+          "depth": 5.63
+        },
+        "warrantyInformation": "3 months warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 1,
+            "comment": "Not as described!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Julian James",
+            "reviewerEmail": "julian.james@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Fast shipping!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Lucas Gordon",
+            "reviewerEmail": "lucas.gordon@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Excellent quality!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Ava Taylor",
+            "reviewerEmail": "ava.taylor@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "No return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "7557912146622",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
+      },
+      {
+        "id": 132,
+        "title": "Samsung Galaxy S8",
+        "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+        "category": "smartphones",
+        "price": 499.99,
+        "discountPercentage": 19.45,
+        "rating": 4.4,
+        "stock": 0,
+        "tags": [
+          "smartphones",
+          "samsung galaxy"
+        ],
+        "brand": "Samsung",
+        "sku": "SMA-SAM-SAM-132",
+        "weight": 6,
+        "dimensions": {
+          "width": 23.05,
+          "height": 26.88,
+          "depth": 15.73
+        },
+        "warrantyInformation": "2 year warranty",
+        "shippingInformation": "Ships in 1 week",
+        "availabilityStatus": "Out of Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Highly impressed!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Owen Fisher",
+            "reviewerEmail": "owen.fisher@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Highly impressed!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Clara Berry",
+            "reviewerEmail": "clara.berry@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Highly recommended!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Tyler Davis",
+            "reviewerEmail": "tyler.davis@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "No return policy",
+        "minimumOrderQuantity": 4,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "5995499013336",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp"
+      },
+      {
+        "id": 133,
+        "title": "Samsung Galaxy S10",
+        "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
+        "category": "smartphones",
+        "price": 699.99,
+        "discountPercentage": 5.59,
+        "rating": 3.06,
+        "stock": 19,
+        "tags": [
+          "smartphones",
+          "samsung galaxy"
+        ],
+        "brand": "Samsung",
+        "sku": "SMA-SAM-SAM-133",
+        "weight": 9,
+        "dimensions": {
+          "width": 27.41,
+          "height": 15.26,
+          "depth": 27.02
+        },
+        "warrantyInformation": "No warranty",
+        "shippingInformation": "Ships in 2 weeks",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Excellent quality!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Tristan Scott",
+            "reviewerEmail": "tristan.scott@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Would buy again!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Christopher West",
+            "reviewerEmail": "christopher.west@x.dummyjson.com"
+          },
+          {
+            "rating": 2,
+            "comment": "Would not recommend!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Amelia Perez",
+            "reviewerEmail": "amelia.perez@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "30 days return policy",
+        "minimumOrderQuantity": 2,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "4676898229465",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp"
+      },
+      {
+        "id": 134,
+        "title": "Vivo S1",
+        "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+        "category": "smartphones",
+        "price": 249.99,
+        "discountPercentage": 10.17,
+        "rating": 3.5,
+        "stock": 50,
+        "tags": [
+          "smartphones",
+          "vivo"
+        ],
+        "brand": "Vivo",
+        "sku": "SMA-VIV-VIV-134",
+        "weight": 4,
+        "dimensions": {
+          "width": 14.06,
+          "height": 11.79,
+          "depth": 6.78
+        },
+        "warrantyInformation": "6 months warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Very satisfied!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Samantha Martinez",
+            "reviewerEmail": "samantha.martinez@x.dummyjson.com"
+          },
+          {
+            "rating": 3,
+            "comment": "Very disappointed!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Logan Lee",
+            "reviewerEmail": "logan.lee@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Would buy again!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Sophia Jones",
+            "reviewerEmail": "sophia.jones@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "7 days return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "8575699153333",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp"
+      },
+      {
+        "id": 135,
+        "title": "Vivo V9",
+        "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+        "category": "smartphones",
+        "price": 299.99,
+        "discountPercentage": 17.67,
+        "rating": 3.6,
+        "stock": 82,
+        "tags": [
+          "smartphones",
+          "vivo"
+        ],
+        "brand": "Vivo",
+        "sku": "SMA-VIV-VIV-135",
+        "weight": 4,
+        "dimensions": {
+          "width": 19.85,
+          "height": 21.83,
+          "depth": 13.04
+        },
+        "warrantyInformation": "2 year warranty",
+        "shippingInformation": "Ships in 1 month",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 2,
+            "comment": "Very unhappy with my purchase!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Logan Lawson",
+            "reviewerEmail": "logan.lawson@x.dummyjson.com"
+          },
+          {
+            "rating": 5,
+            "comment": "Awesome product!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Layla Young",
+            "reviewerEmail": "layla.young@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Great value for money!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Asher Scott",
+            "reviewerEmail": "asher.scott@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "60 days return policy",
+        "minimumOrderQuantity": 2,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "4295398764784",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp"
+      },
+      {
+        "id": 136,
+        "title": "Vivo X21",
+        "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+        "category": "smartphones",
+        "price": 499.99,
+        "discountPercentage": 17.41,
+        "rating": 4.26,
+        "stock": 7,
+        "tags": [
+          "smartphones",
+          "vivo"
+        ],
+        "brand": "Vivo",
+        "sku": "SMA-VIV-VIV-136",
+        "weight": 10,
+        "dimensions": {
+          "width": 22.49,
+          "height": 21.62,
+          "depth": 27.88
+        },
+        "warrantyInformation": "1 year warranty",
+        "shippingInformation": "Ships in 1-2 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Very pleased!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Liam Gonzalez",
+            "reviewerEmail": "liam.gonzalez@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Fast shipping!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Aurora Barnes",
+            "reviewerEmail": "aurora.barnes@x.dummyjson.com"
+          },
+          {
+            "rating": 2,
+            "comment": "Not as described!",
+            "date": "2025-04-30T09:41:02.054Z",
+            "reviewerName": "Evelyn Walker",
+            "reviewerEmail": "evelyn.walker@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "60 days return policy",
+        "minimumOrderQuantity": 3,
+        "meta": {
+          "createdAt": "2025-04-30T09:41:02.054Z",
+          "updatedAt": "2025-04-30T09:41:02.054Z",
+          "barcode": "9944308291810",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/2.webp",
+          "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/3.webp"
+        ],
+        "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp"
+      },
+      {
+        "id": 201,
+        "title": "Sony WF-1000XM4",
+        "description": "Industry-leading noise canceling with Dual Noise Sensor technology. Truly wireless earbuds with exceptional sound quality.",
+        "category": "earphones",
+        "price": 279.99,
+        "discountPercentage": 10.5,
+        "rating": 4.8,
+        "stock": 12,
+        "tags": ["earphones", "sony", "wireless"],
+        "brand": "Sony",
+        "sku": "EAR-SON-WF1000XM4",
+        "weight": 0.15,
+        "dimensions": {
+          "width": 6.0,
+          "height": 5.0,
+          "depth": 3.0
+        },
+        "warrantyInformation": "1 year warranty",
+        "shippingInformation": "Ships in 2-3 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Amazing sound and battery life!",
+            "date": "2025-04-25T14:22:00.000Z",
+            "reviewerName": "Emily Davis",
+            "reviewerEmail": "emily.davis@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Very comfortable.",
+            "date": "2025-04-26T10:11:00.000Z",
+            "reviewerName": "Noah Smith",
+            "reviewerEmail": "noah.smith@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "30 days return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-24T09:00:00.000Z",
+          "updatedAt": "2025-04-28T09:00:00.000Z",
+          "barcode": "1234567890123",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/earphones/sony-wf1000xm4/1.webp",
+          "https://cdn.dummyjson.com/product-images/earphones/sony-wf1000xm4/2.webp"
+        ],
+        "thumbnail": "https://cdn.dsmcdn.com/ty1479/product/media/images/prod/QC/20240814/13/586399a5-8036-33eb-b7ff-56cb6bc08640/1_org_zoom.jpg"
+      },
+      {
+        "id": 202,
+        "title": "Apple AirPods Pro (2nd Gen)",
+        "description": "Active Noise Cancellation, Adaptive Transparency, Personalized Spatial Audio, and up to 6 hours of listening time.",
+        "category": "earphones",
+        "price": 249.00,
+        "discountPercentage": 5.0,
+        "rating": 4.6,
+        "stock": 20,
+        "tags": ["apple", "earphones", "airpods"],
+        "brand": "Apple",
+        "sku": "EAR-APP-AIRP2",
+        "weight": 0.1,
+        "dimensions": {
+          "width": 5.4,
+          "height": 4.3,
+          "depth": 2.2
+        },
+        "warrantyInformation": "1 year AppleCare warranty",
+        "shippingInformation": "Ships in 1 business day",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Seamless experience with Apple devices.",
+            "date": "2025-04-27T08:00:00.000Z",
+            "reviewerName": "Lucas Johnson",
+            "reviewerEmail": "lucas.johnson@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "14 days return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-23T12:00:00.000Z",
+          "updatedAt": "2025-04-27T12:00:00.000Z",
+          "barcode": "9876543210123",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dummyjson.com/product-images/earphones/apple-airpods-pro/1.webp"
+        ],
+        "thumbnail": "https://cdn.dsmcdn.com/ty979/product/media/images/20230804/15/400176226/581876956/2/2_org_zoom.jpg"
+      },
+      {
+        "id": 203,
+        "title": "Samsung Galaxy Buds2 Pro",
+        "description": "Premium sound, 24-bit Hi-Fi audio, Intelligent ANC, ergonomic design for all-day comfort.",
+        "category": "earphones",
+        "price": 229.99,
+        "discountPercentage": 12.0,
+        "rating": 4.4,
+        "stock": 15,
+        "tags": ["samsung", "earphones", "galaxy"],
+        "brand": "Samsung",
+        "sku": "EAR-SAM-BUDS2PRO",
+        "weight": 0.13,
+        "dimensions": {
+          "width": 5.0,
+          "height": 4.8,
+          "depth": 2.5
+        },
+        "warrantyInformation": "2 years warranty",
+        "shippingInformation": "Ships in 1-2 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Great fit and sound quality.",
+            "date": "2025-04-29T13:33:00.000Z",
+            "reviewerName": "Mia Thompson",
+            "reviewerEmail": "mia.thompson@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "30 days return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-04-21T15:00:00.000Z",
+          "updatedAt": "2025-04-29T15:00:00.000Z",
+          "barcode": "3210987654321",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://media.flixcar.com/webp/synd-asset/Samsung-109354172-tr-galaxy-buds2-pro-r510-sm-r510nzwatur-533195915--Download-Source--zoom.png",
+          "https://media.flixcar.com/webp/synd-asset/Samsung-109354098-tr-galaxy-buds2-pro-r510-sm-r510nzwatur-533195911--Download-Source--zoom.png",
+          "https://media.flixcar.com/webp/synd-asset/Samsung-109354068-tr-galaxy-buds2-pro-r510-sm-r510nzwatur-533195909--Download-Source--zoom.png"
+        ],
+        "thumbnail": "https://cdn.dsmcdn.com/ty1574/prod/QC/20240929/02/7fa9033d-e651-3ba8-9811-8fe2d964adea/1_org_zoom.jpg"
+      },
+      {
+        "id": 204,
+        "title": "Xiaomi Redmi Buds 6 Play - Black In-Ear TWS Earphones",
+        "description": "Xiaomi Redmi Buds 6 Play stands out with its ergonomic design and long battery life. It delivers clear sound quality and includes a low-latency mode, making it ideal for everyday use.",
+        "category": "earphones",
+        "price": 39.99,
+        "discountPercentage": 15,
+        "rating": 4.5,
+        "stock": 120,
+        "tags": ["earphones", "xiaomi", "tws", "wireless"],
+        "brand": "Xiaomi",
+        "sku": "EAR-XIA-RB6P",
+        "weight": 0.12,
+        "dimensions": { "width": 4.5, "height": 3, "depth": 2 },
+        "warrantyInformation": "2-year official Xiaomi warranty",
+        "shippingInformation": "Ships within 24 hours",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Great price-performance ratio. Lightweight and high quality.",
+            "date": "2025-05-01T09:00:00.000Z",
+            "reviewerName": "Mert Yildiz",
+            "reviewerEmail": "mert.yildiz@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Sound quality is decent, but the case is a bit bulky.",
+            "date": "2025-05-02T14:15:00.000Z",
+            "reviewerName": "Zeynep Kaya",
+            "reviewerEmail": "zeynep.kaya@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "30-day unconditional return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-05-03T10:30:00.000Z",
+          "updatedAt": "2025-05-03T10:30:00.000Z",
+          "barcode": "6934177791306",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dsmcdn.com/ty1435/product/media/images/prod/SPM/PIM/20231106/16/8a515da9-6caa-3a26-99fc-504c9a09a5fe/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1435/product/media/images/prod/SPM/PIM/20231106/16/8a515da9-6caa-3a26-99fc-504c9a09a5fe/2_org_zoom.jpg"
+        ],
+        "thumbnail": "https://cdn.dsmcdn.com/ty1520/product/media/images/prod/QC/20240902/12/a0adcccf-be6e-3324-a794-baeaf1a46217/1_org_zoom.jpg"
+      },
+      {
+        "id": 205,
+        "title": "JBL Tune 525BT Black Multi-Connect Wireless On-Ear Headphones",
+        "description": "The JBL Tune 525BT delivers powerful JBL Pure Bass sound with up to 57 hours of battery life. Thanks to its multipoint connectivity and voice assistant support, it offers seamless everyday use.",
+        "category": "earphones",
+        "price": 89.99,
+        "discountPercentage": 10,
+        "rating": 4.6,
+        "stock": 65,
+        "tags": ["earphones", "jbl", "wireless", "on-ear"],
+        "brand": "JBL",
+        "sku": "EAR-JBL-525BT",
+        "weight": 0.22,
+        "dimensions": { "width": 15.3, "height": 19.5, "depth": 4.8 },
+        "warrantyInformation": "2-year JBL warranty",
+        "shippingInformation": "Ships in 1-3 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Incredible battery life and super comfortable for long use.",
+            "date": "2025-05-01T12:30:00.000Z",
+            "reviewerName": "Ayşe Demir",
+            "reviewerEmail": "ayse.demir@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Great sound, but a bit tight on the ears after long use.",
+            "date": "2025-05-03T16:10:00.000Z",
+            "reviewerName": "Can Yılmaz",
+            "reviewerEmail": "can.yilmaz@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "30-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-05-04T10:00:00.000Z",
+          "updatedAt": "2025-05-04T10:00:00.000Z",
+          "barcode": "6925281992345",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+        },
+        "images": [
+          "https://cdn.dsmcdn.com/ty923/product/media/images/20230518/17/363a6ff9/678274119/1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty923/product/media/images/20230518/17/363a6ff9/678274119/2/1_org_zoom.jpg"
+        ],
+        "thumbnail": "https://cdn.dsmcdn.com/ty1642/prod/QC/20250221/10/3bf86161-83c7-3f1d-9219-babe519e2ebe/1_org_zoom.jpg"
+      },
+      {
+        "id": 206,
+        "title": "Huawei MatePad SE 11\" 6GB 128GB Gray",
+        "description": "The Huawei MatePad SE 11\" features a large 11-inch display, 6GB RAM, and 128GB storage for smooth performance. With a sleek gray design, it's perfect for work, entertainment, and multitasking.",
+        "category": "tablets",
+        "price": 299.99,
+        "discountPercentage": 7.5,
+        "rating": 4.2,
+        "stock": 35,
+        "tags": ["tablets", "huawei", "android", "10.4-inch"],
+        "brand": "Huawei",
+        "sku": "TAB-HUA-MATSE-206",
+        "weight": 1.2,
+        "dimensions": { "width": 25.3, "height": 16.5, "depth": 0.8 },
+        "warrantyInformation": "2-year Huawei warranty",
+        "shippingInformation": "Ships in 1-3 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Excellent tablet for the price, very fast and good display!",
+            "date": "2025-05-02T11:45:00.000Z",
+            "reviewerName": "Emma Johnson",
+            "reviewerEmail": "emma.johnson@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Great battery life, but speakers could be louder.",
+            "date": "2025-05-03T09:20:00.000Z",
+            "reviewerName": "Michael Brown",
+            "reviewerEmail": "michael.brown@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "30-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-05-04T10:00:00.000Z",
+          "updatedAt": "2025-05-04T10:00:00.000Z",
+          "barcode": "6932112345678",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code-huawei.png"
+        },
+        "images": [
+          "https://cdn.dsmcdn.com/ty1024/product/media/images/20230615/15/12345678/1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1024/product/media/images/20230615/15/12345678/2/1_org_zoom.jpg"
+        ],
+        "thumbnail": "https://cdn.dsmcdn.com/ty1630/product/media/images/prod/PIM/20250131/15/1e6fd041-88ef-4f48-a883-3d8b14664517/1_org_zoom.jpg"
+      },
+      {
+        "id": 207,
+        "title": "Samsung Galaxy Tab A9 8GB RAM 128GB Dark Blue",
+        "description": "The Samsung Galaxy Tab A9 features an 8.7-inch display, 8GB RAM, and 128GB storage. With its sleek dark blue design and powerful performance, it's perfect for productivity and entertainment.",
+        "category": "tablets",
+        "price": 349.99,
+        "discountPercentage": 8.2,
+        "rating": 4.3,
+        "stock": 42,
+        "tags": ["tablets", "samsung", "android", "8.7-inch"],
+        "brand": "Samsung",
+        "sku": "TAB-SAM-GA9-207",
+        "weight": 0.37,
+        "dimensions": {
+          "width": 21.1,
+          "height": 13.4,
+          "depth": 0.8
+        },
+        "warrantyInformation": "2-year Samsung warranty",
+        "shippingInformation": "Ships in 1-2 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Perfect size for reading and watching videos!",
+            "date": "2025-05-10T14:25:00.000Z",
+            "reviewerName": "Zeynep Kaya",
+            "reviewerEmail": "zeynep.kaya@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Great performance but could have better speakers",
+            "date": "2025-05-12T09:15:00.000Z",
+            "reviewerName": "Mehmet Arslan",
+            "reviewerEmail": "mehmet.arslan@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "30-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-05-15T08:00:00.000Z",
+          "updatedAt": "2025-05-15T08:00:00.000Z",
+          "barcode": "8806092294567",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code-samsung-tab.png"
+        },
+        "images": [
+          "https://cdn.dsmcdn.com/ty1125/product/media/images/20230720/15/12345678/1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1125/product/media/images/20230720/15/12345678/2/1_org_zoom.jpg"
+        ],
+        "thumbnail": "https://cdn.dsmcdn.com/ty1385/product/media/images/prod/QC/20240626/11/f0630be6-862d-37fa-825e-527d9e6aa26e/1_org_zoom.jpg"
+      },
+      {
+        "id": 208,
+        "title": "Xiaomi Redmi Pad SE 8GB RAM 256GB Purple",
+        "description": "Xiaomi Redmi Pad SE features an 11-inch FHD+ display, Snapdragon 680 processor, and 256GB storage. With its eye-catching purple color and 8000mAh battery, it offers premium performance for work and entertainment.",
+        "category": "tablets",
+        "price": 279.99,
+        "discountPercentage": 12.5,
+        "rating": 4.5,
+        "stock": 38,
+        "tags": ["tablets", "xiaomi", "android", "11-inch", "redmi"],
+        "brand": "Xiaomi",
+        "sku": "TAB-XIA-REDSE-208",
+        "weight": 0.478,
+        "dimensions": {
+          "width": 25.5,
+          "height": 16.8,
+          "depth": 0.79
+        },
+        "warrantyInformation": "2-year Xiaomi warranty",
+        "shippingInformation": "Ships same day if ordered before 3PM",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Battery lasts forever and the purple color is stunning!",
+            "date": "2025-05-18T11:30:00.000Z",
+            "reviewerName": "Elif Şahin",
+            "reviewerEmail": "elif.sahin@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Great value for money, though a bit heavy for long reading",
+            "date": "2025-05-20T16:45:00.000Z",
+            "reviewerName": "Cem Yıldız",
+            "reviewerEmail": "cem.yildiz@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "30-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-05-22T09:15:00.000Z",
+          "updatedAt": "2025-05-22T09:15:00.000Z",
+          "barcode": "6935112345678",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code-xiaomi-purple.png",
+          "colorOptions": ["Purple", "Graphite Gray", "Mint Green"]
+        },
+        "images": [
+          "https://cdn.dsmcdn.com/ty1250/product/media/images/20230815/18/23456789/1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1250/product/media/images/20230815/18/23456789/2/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1250/product/media/images/20230815/18/23456789/3/1_org_zoom.jpg"
+        ],
+        "thumbnail": "https://cdn.dsmcdn.com/ty1673/prod/QC/20250503/16/c1a1a42c-99ca-356b-b3dd-d275df2a68f0/1_org_zoom.jpg",
+        "features": [
+          "11-inch FHD+ 90Hz display",
+          "Qualcomm Snapdragon 680",
+          "8000mAh battery",
+          "Quad speakers with Dolby Atmos",
+          "MIUI Pad 14 OS"
+        ]
+      },
+      {
+        "id": 209,
+        "title": "Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB RAM 128GB 8.7\" Tablet",
+        "description": "Samsung Galaxy Tab A9 features an 8.7-inch LCD display, 8GB RAM and 128GB storage. With its compact design and powerful performance, it's perfect for daily entertainment and productivity tasks.",
+        "category": "tablets",
+        "price": 329.99,
+        "discountPercentage": 10.0,
+        "rating": 4.4,
+        "stock": 27,
+        "tags": ["tablets", "samsung", "android", "8.7-inch", "wifi"],
+        "brand": "Samsung",
+        "sku": "TAB-SAM-GA9X110-209",
+        "weight": 0.331,
+        "dimensions": {
+          "width": 21.1,
+          "height": 13.4,
+          "depth": 0.8
+        },
+        "warrantyInformation": "2-year manufacturer warranty",
+        "shippingInformation": "Ships in 1 business day",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Perfect size for reading and very lightweight!",
+            "date": "2025-06-01T10:15:00.000Z",
+            "reviewerName": "Aylin Demir",
+            "reviewerEmail": "aylin.demir@x.dummyjson.com"
+          },
+          {
+            "rating": 4,
+            "comment": "Great battery life but display could be brighter",
+            "date": "2025-06-05T14:30:00.000Z",
+            "reviewerName": "Burak Kılıç",
+            "reviewerEmail": "burak.kilic@x.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "30-day money back guarantee",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-06-10T08:00:00.000Z",
+          "updatedAt": "2025-06-10T08:00:00.000Z",
+          "barcode": "8806092345678",
+          "qrCode": "https://cdn.dummyjson.com/public/qr-code-samsung-a9.png",
+          "modelNumber": "SM-X110",
+          "colorOptions": ["Silver", "Graphite"]
+        },
+        "images": [
+          "https://cdn.dsmcdn.com/ty1300/product/media/images/20230910/15/34567890/1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1300/product/media/images/20230910/15/34567890/2/1_org_zoom.jpg"
+        ],
+        "thumbnail": "https://cdn.dsmcdn.com/ty1630/prod/QC/20250125/13/ffa28c60-df5c-3a91-8768-e497da0c4826/1_org_zoom.jpg",
+        "specifications": {
+          "display": "8.7\" LCD (1340x800)",
+          "processor": "MediaTek MT8788",
+          "battery": "5100mAh",
+          "os": "Android 13 + One UI 5.1",
+          "connectivity": "Wi-Fi 5, Bluetooth 5.0",
+          "camera": "8MP rear + 2MP front"
+        }
+      }
+
+    ],
+    "total": 21,
+    "skip": 0,
+    "limit": 21,
+    "categories": ["laptops", "smartphones", "earphones","tablets"]
+  }
+  

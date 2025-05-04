@@ -8,13 +8,17 @@ const Earphones = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products/category/electronics") // dummyjson'da "earphones" kategorisi yok, smartphones'ı örnek olarak kullanıyoruz
-      .then(res => res.json())
-      .then(data => {
-        setAllProducts(data.products);
-        setFilteredProducts(data.products);
-      });
-  }, []);
+      fetch("/data/products.json")
+        .then(res => res.json())
+        .then(data => {
+          const earphonesOnly = data.products.filter(product => product.category === "earphones");
+          setAllProducts(earphonesOnly);
+          setFilteredProducts(earphonesOnly);
+        })
+        .catch(error => {
+          console.error("Veri alınırken hata oluştu:", error);
+        });
+    }, []);
 
   useEffect(() => {
     const filtered = allProducts.filter(product =>

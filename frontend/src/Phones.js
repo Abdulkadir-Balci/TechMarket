@@ -8,14 +8,17 @@ const Phones = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://dummyjson.com/products/category/smartphones")
-      .then(res => res.json())
-      .then(data => {
-        setAllProducts(data.products);
-        setFilteredProducts(data.products);
-      });
-  }, []);
-
+      fetch("/data/products.json")
+        .then(res => res.json())
+        .then(data => {
+          const phonesOnly = data.products.filter(product => product.category === "smartphones");
+          setAllProducts(phonesOnly);
+          setFilteredProducts(phonesOnly);
+        })
+        .catch(error => {
+          console.error("Veri alınırken hata oluştu:", error);
+        });
+    }, []);
   // Arama çubuğu değiştiğinde filtreleme
   useEffect(() => {
     const filtered = allProducts.filter(product =>
