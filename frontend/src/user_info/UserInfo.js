@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import axios from 'axios';
 import './UserInfo.css';
 
-const UserInfo = ({ userEmail, onLogout }) => {  
+const UserInfo = ({ userEmail, onLogout, onLogin }) => {  
   const [user, setUser] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -37,6 +37,8 @@ const UserInfo = ({ userEmail, onLogout }) => {
           setError("Kullanıcı bilgileri yüklenirken hata oluştu");
           setLoading(false);
         });
+    } else {
+      setUser(null); // Kullanıcı yoksa state'i temizle
     }
   }, [userEmail]);
 
@@ -44,17 +46,12 @@ const UserInfo = ({ userEmail, onLogout }) => {
     setIsOpen(prev => !prev);
   };
 
-  const handleLogoutClick = () => {
-    onLogout(); 
-    setIsOpen(false);
-  };
-
   return (
     <div className="user-info-container" ref={popupRef}>
       <div 
         className={`user-icon ${isOpen ? 'active' : ''}`} 
         onClick={toggleUserInfo}
-        title="Kullanıcı bilgileri"
+        title={user ? "Kullanıcı bilgileri" : "Giriş yap"}
       >
         {user ? (
           <span className="avatar">{user.name.charAt(0).toUpperCase()}</span>
@@ -80,10 +77,17 @@ const UserInfo = ({ userEmail, onLogout }) => {
                 {user.role && <p><strong>User Role:</strong> {user.role}</p>}
                 {user.joinDate && <p><strong>Join Date:</strong> {new Date(user.joinDate).toLocaleDateString()}</p>}
               </div>
-              <button className="logout-button" onClick={handleLogoutClick}>Logout</button>
+              <button className="auth-button" onClick={onLogout}>
+                Logout
+              </button>
             </>
           ) : (
-            <div className="no-user">Kullanıcı bilgileri bulunamadı</div>
+            <>
+              <div className="no-user">Giriş yapılmamış</div>
+              <button className="auth-button" onClick={onLogin}>
+                Login
+              </button>
+            </>
           )}
         </div>
       )}

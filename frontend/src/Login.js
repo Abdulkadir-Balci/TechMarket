@@ -4,71 +4,66 @@ import { useNavigate } from "react-router-dom";
 import "./login.css";
 
 function Login({ onLogin }) {
-  const [password, setPasswordValue] = useState("");
-  const [userEmail, setUserEmailValue] = useState("");
+  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
   const navigate = useNavigate();
-
-  const setPassword = (e) => {
-    setPasswordValue(e.target.value);
-  };
-
-  const setUserEmail = (e) => {
-    setUserEmailValue(e.target.value);
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const data = {
-      userEmail: userEmail,
-      password: password,
-    };
+    setError("");
 
     try {
-      const response = await axios.post("http://localhost:8080/loginUser", data);
-      console.log("this is the response ", response.data);
+      const response = await axios.post("http://localhost:8080/loginUser", {
+        userEmail: email,
+        password
+      });
 
       if (!response.data) {
-        alert("Invalid User Id or Password");
+        setError("Invalid email or password");
       } else {
-        alert("Login Successful");
-        onLogin(response.data); 
-        navigate("/"); 
+        onLogin(response.data);
+        navigate("/");
       }
     } catch (error) {
       console.error(error);
+      setError("Login failed. Please try again.");
     }
-  };
-
-  const redirectToRegister = () => {
-    navigate("/register");
   };
 
   return (
     <div className="login-container">
       <div className="container">
         <h1>Login</h1>
+        {error && <div className="error-message">{error}</div>}
         <form onSubmit={handleSubmit}>
           <label>Email:</label>
           <input
             type="email"
-            placeholder="Enter your user id"
-            value={userEmail}
-            onChange={setUserEmail}
+            placeholder="Enter your email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
           />
           <label>Password:</label>
           <input
             type="password"
             placeholder="Enter your password"
             value={password}
-            onChange={setPassword}
+            onChange={(e) => setPassword(e.target.value)}
+            required
           />
-          <a onClick={redirectToRegister}>Don't have an account? Register here</a>
           <button type="submit">Login</button>
         </form>
+        <p className="register-text">
+          Don't have an account?{" "}
+          <span className="register-link" onClick={() => navigate("/register")}>
+            Register here
+          </span>
+        </p>
       </div>
     </div>
   );
 }
 
-export default Login;
+export default Login;
