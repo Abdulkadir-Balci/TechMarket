@@ -27,7 +27,7 @@ public class ProductService {
     }
 
     public void fetchAndSaveByCategory(String category) {
-        String url = "https://fakestoreapi.com/products/category/" + category;
+        String url = "https://dummyjson.com/products" + category;
 
         try {
             Product[] productsArray = restTemplate.getForObject(url, Product[].class);

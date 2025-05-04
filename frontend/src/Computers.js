@@ -8,11 +8,11 @@ const Computers = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products/category/electronics")
+    fetch("https://dummyjson.com/products/category/laptops")
       .then(res => res.json())
       .then(data => {
-        setAllProducts(data);           // ✅ Direkt data kullanılıyor
-        setFilteredProducts(data);      // ✅ Aynı şekilde
+        setAllProducts(data.products);           // ✅ Direkt data kullanılıyor
+        setFilteredProducts(data.products);      // ✅ Aynı şekilde
       })
       .catch(error => {
         console.error("Veri alınırken hata oluştu:", error);
@@ -39,7 +39,11 @@ const Computers = () => {
       <div className="phones-container">
         {filteredProducts.map((product) => (
           <div className="phone-card" key={product.id}>
-            <img src={product.image} alt={product.title} /> {/* ✅ image alanı kullanılıyor */}
+            <img 
+  src={product.thumbnail || product.images?.[0]} 
+  alt={product.title} 
+  onError={(e) => e.target.src = 'placeholder-image-url'} // Fallback ekleyin
+/>
             <h3>{product.title}</h3>
             <p>{product.description}</p>
             <p><strong>Price:</strong> ${product.price}</p>

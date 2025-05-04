@@ -8,7 +8,7 @@ const Phones = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products/category/electronics")
+    fetch("https://dummyjson.com/products/category/smartphones")
       .then(res => res.json())
       .then(data => {
         setAllProducts(data.products);
