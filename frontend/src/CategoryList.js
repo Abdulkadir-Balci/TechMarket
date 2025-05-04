@@ -1,38 +1,29 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';  // Link'i import ediyoruz
 import './CategoryList.css';  // CSS dosyasını import ediyoruz
 
 const categories = [
-  { name: 'Phones' },
-  { name: 'Computers' },
-  { name: 'Tablets' },
-  { name: 'Earphones' },
+  { name: 'Phones', path: '/phones' },
+  { name: 'Computers', path: '/computers' },
+  { name: 'Tablets', path: '/tablets' },
+  { name: 'Earphones', path: '/earphones' },
 ];
 
-const CategoryList = () => {
-  // Kategori listesinin açık mı kapalı mı olduğunu belirlemek için useState kullanıyoruz
-  const [isOpen, setIsOpen] = useState(true);
-
-  const toggleCategoryList = () => {
-    setIsOpen(!isOpen);  // Listeyi açıp kapama işlevi
-  };
-
+const CategoryList = ({ isOpen, toggleCategoryList }) => {
   return (
-    <div className="category-list">
-      {/* "Categories" başlığını tıklayarak kategorileri açıp kapatıyoruz */}
-      <button className="category-title" onClick={toggleCategoryList}>
-        Categories
-      </button>
-
+    <div className={`category-list ${isOpen ? 'open' : ''}`}>
       {/* Kategoriler listesi */}
-      {isOpen && (
-        <div className="categories">
-          {categories.map((category, index) => (
-            <div className="category-item" key={index}>
-              <button className="category-title">{category.name}</button>
-            </div>
-          ))}
-        </div>
-      )}
+      <div className="categories">
+        {categories.map((category, index) => (
+          <div className="category-item" key={index}>
+            <Link to={category.path}>
+              <button className="category-button" onClick={toggleCategoryList}>
+                {category.name}
+              </button>
+            </Link>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

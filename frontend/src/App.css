@@ -16,20 +16,20 @@ body {
 /* Hamburger Menüsü */
 .hamburger-menu {
   position: fixed;
-  top: 20px;
+  top: 15px;
   left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 25px;
+  width: 50px;
+  height: 20px;
   cursor: pointer;
 }
 
 .hamburger-menu .line {
   width: 30px;
   height: 4px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
 
@@ -127,13 +127,7 @@ body {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Ana İçerik (Content) Alanı */
-.content {
-  margin-left: 270px;  /* Sidebar'ın sağındaki alanda içerik */
-  padding: 20px;
-  flex: 1;
-  background-color: #444;  /* Ana içerik arka planı */
-}
+
 
 /* Welcome Text */
 .welcome-text {
