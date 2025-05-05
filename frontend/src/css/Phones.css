@@ -1,0 +1,30 @@
+.phones-page {
+  padding: 20px;
+}
+
+.search-input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.phones-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.phone-card {
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.phone-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}

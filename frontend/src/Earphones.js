@@ -1,8 +1,8 @@
-// src/Tablets.js
+// src/Earphones.js
 import React, { useEffect, useState } from 'react';
-import './css/Tablets.css'; // Make sure this CSS file exists
+import './css/Phones.css';
 
-const Tablets = ({ addToCart }) => { // ✅ addToCart props olarak aldık
+const Earphones = ({ addToCart }) => { // ✅ addToCart'ı props olarak al
   const [allProducts, setAllProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredProducts, setFilteredProducts] = useState([]);
@@ -11,11 +11,9 @@ const Tablets = ({ addToCart }) => { // ✅ addToCart props olarak aldık
     fetch("/data/products.json")
       .then(res => res.json())
       .then(data => {
-        const tabletsOnly = data.products.filter(product =>
-          product.category === "tablets"
-        );
-        setAllProducts(tabletsOnly);
-        setFilteredProducts(tabletsOnly);
+        const earphonesOnly = data.products.filter(product => product.category === "earphones");
+        setAllProducts(earphonesOnly);
+        setFilteredProducts(earphonesOnly);
       })
       .catch(error => {
         console.error("Error fetching data:", error);
@@ -30,28 +28,23 @@ const Tablets = ({ addToCart }) => { // ✅ addToCart props olarak aldık
   }, [searchTerm, allProducts]);
 
   return (
-    <div className="tablets-page">
-      <h2>Tablets</h2>
+    <div className="phones-page">
+      <h2>Earphones</h2>
       <input
         type="text"
-        placeholder="Search tablets..."
+        placeholder="Search earphones..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         className="search-input"
       />
-      <div className="tablets-container">
+      <div className="phones-container">
         {filteredProducts.map((product) => (
-          <div className="tablet-card" key={product.id}>
+          <div className="phone-card" key={product.id}>
             <img src={product.thumbnail} alt={product.title} />
             <h3>{product.title}</h3>
             <p>{product.description}</p>
             <p><strong>Price:</strong> ${product.price}</p>
-            {product.discountPercentage && (
-              <p className="discount">
-                <strong>Discount:</strong> {product.discountPercentage}% off
-              </p>
-            )}
-            <button onClick={() => addToCart(product)}>🛒 Add to Cart</button> {/* ✅ butonu ekledik */}
+            <button onClick={() => addToCart(product)}>🛒 Add to Cart</button> {/* ✅ buton ekledik */}
           </div>
         ))}
       </div>
@@ -59,4 +52,4 @@ const Tablets = ({ addToCart }) => { // ✅ addToCart props olarak aldık
   );
 };
 
-export default Tablets;
+export default Earphones;

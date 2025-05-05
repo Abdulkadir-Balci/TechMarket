@@ -1,8 +1,8 @@
-// src/Tablets.js
+// src/Computers.js
 import React, { useEffect, useState } from 'react';
-import './css/Tablets.css'; // Make sure this CSS file exists
+import './css/Phones.css';
 
-const Tablets = ({ addToCart }) => { // ✅ addToCart props olarak aldık
+const Computers = ({ addToCart }) => { // ✅ addToCart'ı props olarak al
   const [allProducts, setAllProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredProducts, setFilteredProducts] = useState([]);
@@ -11,11 +11,9 @@ const Tablets = ({ addToCart }) => { // ✅ addToCart props olarak aldık
     fetch("/data/products.json")
       .then(res => res.json())
       .then(data => {
-        const tabletsOnly = data.products.filter(product =>
-          product.category === "tablets"
-        );
-        setAllProducts(tabletsOnly);
-        setFilteredProducts(tabletsOnly);
+        const laptopsOnly = data.products.filter(product => product.category === "laptops");
+        setAllProducts(laptopsOnly);
+        setFilteredProducts(laptopsOnly);
       })
       .catch(error => {
         console.error("Error fetching data:", error);
@@ -30,28 +28,27 @@ const Tablets = ({ addToCart }) => { // ✅ addToCart props olarak aldık
   }, [searchTerm, allProducts]);
 
   return (
-    <div className="tablets-page">
-      <h2>Tablets</h2>
+    <div className="phones-page">
+      <h2>Computers</h2>
       <input
         type="text"
-        placeholder="Search tablets..."
+        placeholder="Search computers..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         className="search-input"
       />
-      <div className="tablets-container">
+      <div className="phones-container">
         {filteredProducts.map((product) => (
-          <div className="tablet-card" key={product.id}>
-            <img src={product.thumbnail} alt={product.title} />
+          <div className="phone-card" key={product.id}>
+            <img
+              src={product.thumbnail || product.images?.[0]}
+              alt={product.title}
+              onError={(e) => (e.target.src = 'placeholder-image-url')}
+            />
             <h3>{product.title}</h3>
             <p>{product.description}</p>
             <p><strong>Price:</strong> ${product.price}</p>
-            {product.discountPercentage && (
-              <p className="discount">
-                <strong>Discount:</strong> {product.discountPercentage}% off
-              </p>
-            )}
-            <button onClick={() => addToCart(product)}>🛒 Add to Cart</button> {/* ✅ butonu ekledik */}
+            <button onClick={() => addToCart(product)}>🛒 Add to Cart</button> {/* ✅ buton ekledik */}
           </div>
         ))}
       </div>
@@ -59,4 +56,4 @@ const Tablets = ({ addToCart }) => { // ✅ addToCart props olarak aldık
   );
 };
 
-export default Tablets;
+export default Computers;

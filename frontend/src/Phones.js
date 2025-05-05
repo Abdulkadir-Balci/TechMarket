@@ -1,35 +1,57 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+// src/Phones.js
+import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // Yönlendirme için ekledik
+import './css/Phones.css';
 
-const phoneData = [
-  {
-    name: 'iPhone 13 Pro',
-    image: 'https://m.media-amazon.com/images/I/618Bb+QzCmL._AC_SX342_SY445_.jpg',
-    id: 'iphone-13-pro',  // Her telefon için benzersiz bir id
-  },
-  {
-    name: 'Samsung Galaxy S21',
-    image: 'https://m.media-amazon.com/images/I/61EVFGf7zaL.__AC_SX300_SY300_QL70_ML2_.jpg',
-    id: 'samsung-galaxy-s21',  // Benzersiz id
-  },
-  {
-    name: 'Google Pixel 6',  // Yeni telefon ekledik
-    image: 'https://m.media-amazon.com/images/I/61nJq3BzlRL._AC_SL1500_.jpg', // Google Pixel 6 resmi
-    id: 'google-pixel-6',  // Benzersiz id
-  },
-];
+const Phones = ({ addToCart }) => { // addToCart'u props olarak aldık
+  const [allProducts, setAllProducts] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  const navigate = useNavigate(); // Yönlendirme hook'u
 
-const Phones = () => {
+  useEffect(() => {
+    fetch("/data/products.json")
+      .then(res => res.json())
+      .then(data => {
+        const phonesOnly = data.products.filter(product => product.category === "smartphones");
+        setAllProducts(phonesOnly);
+        setFilteredProducts(phonesOnly);
+      })
+      .catch(error => {
+        console.error("Veri alınırken hata oluştu:", error);
+      });
+  }, []);
+
+  useEffect(() => {
+    const filtered = allProducts.filter(product =>
+      product.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredProducts(filtered);
+  }, [searchTerm, allProducts]);
+
+  const handleAddToCart = (product) => {
+    addToCart(product);
+    // sepete ekledikten sonra cart sayfasına yönlendir
+  };
+
   return (
-    <div className="phone-page">
-      <h1>Phones</h1>
-      <div className="phone-list">
-        {phoneData.map((phone) => (
-          <div className="phone-item" key={phone.id}>
-            <Link to={`/phone/${phone.id}`}>
-              <img src={phone.image} alt={phone.name} style={{ maxWidth: '60%', height: 'auto' }} />
-              <h2>{phone.name}</h2>  {/* Telefon ismini ekledik */}
-            </Link>
+    <div className="phones-page">
+      <h2>Phones</h2>
+      <input
+        type="text"
+        placeholder="Search phones..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        className="search-input"
+      />
+      <div className="phones-container">
+        {filteredProducts.map((product) => (
+          <div className="phone-card" key={product.id}>
+            <img src={product.thumbnail} alt={product.title} />
+            <h3>{product.title}</h3>
+            <p>{product.description}</p>
+            <p><strong>Price:</strong> ${product.price}</p>
+            <button onClick={() => handleAddToCart(product)}>🛒 Add to Cart</button>
           </div>
         ))}
       </div>

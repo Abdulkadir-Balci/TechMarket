@@ -97,7 +97,7 @@
   }
   /* UserInfo.css dosyasına ekleyin veya güncelleyin */
   .user-info-container {
-    position: fixed; /* Sabit pozisyon */
+     /* Sabit pozisyon */
     top: 20px;      /* Üstten 20px aşağıda */
     right: 20px;    /* Sağdan 20px içeride */
     z-index: 1000;  /* Diğer elementlerin üzerinde görünsün */
